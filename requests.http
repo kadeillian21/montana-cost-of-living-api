@@ -1,18 +1,18 @@
 @jwt = eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2Njc5Mzk0ODJ9._wRWIT7rqOscmaiInWqejG1a_TuZsKHTrd49kwNgTyk
 
 ### Cities Index Action
-GET http://localhost:3000/cities
+GET http://localhost:3000/cities.json
 
 ### Cities Show Action
-GET http://localhost:3000/cities/5
+GET http://localhost:3000/cities/5.json
 
 ### Cites Create Action
-POST http://localhost:3000/cities
+POST http://localhost:3000/cities.json
 Authorization: Bearer {{jwt}}
 Content-Type: application/json
 
 {
-  "name": "Test", 
+  "name": "Testgs", 
   "descrption": "Test city", 
   "gas_price": 12.19, 
   "population_percent_change": -100,
@@ -20,7 +20,7 @@ Content-Type: application/json
 }
 
 ### Cities Update Actions
-PATCH http://localhost:3000/cities/4
+PATCH http://localhost:3000/cities/4.json
 Content-Type: application/json
 
 {
@@ -28,7 +28,7 @@ Content-Type: application/json
 }
 
 ### Cities Delete Action
-DELETE http://localhost:3000/cities/4
+DELETE http://localhost:3000/cities/4.json
 
 
 ### Sessions Create Action
