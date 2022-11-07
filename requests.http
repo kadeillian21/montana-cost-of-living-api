@@ -1,18 +1,22 @@
+@jwt = eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2Njc5Mzk0ODJ9._wRWIT7rqOscmaiInWqejG1a_TuZsKHTrd49kwNgTyk
+
 ### Cities Index Action
 GET http://localhost:3000/cities
 
 ### Cities Show Action
-GET http://localhost:3000/cities/1
+GET http://localhost:3000/cities/5
 
 ### Cites Create Action
 POST http://localhost:3000/cities
+Authorization: Bearer {{jwt}}
 Content-Type: application/json
 
 {
   "name": "Test", 
   "descrption": "Test city", 
   "gas_price": 12.19, 
-  "population_percent_change": -100 
+  "population_percent_change": -100,
+  "images": ["strings", "asjdi", "askbdhj"] 
 }
 
 ### Cities Update Actions

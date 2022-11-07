@@ -24,6 +24,9 @@ class CitiesController < ApplicationController
       monthly_average_food_cost: params[:monthly_average_food_cost],
     )
     if city.save
+      params[:images].each do |url|
+        Image.create(city_id: city.id, url: url)
+      end
       render json: city
     else
       render json: { errors: city.errors.full_messages }, status: :bad_request
