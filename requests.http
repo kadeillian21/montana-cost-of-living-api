@@ -1,0 +1,39 @@
+### Cities Index Action
+GET http://localhost:3000/cities
+
+### Cities Show Action
+GET http://localhost:3000/cities/1
+
+### Cites Create Action
+POST http://localhost:3000/cities
+Content-Type: application/json
+
+{
+  "name": "Test", 
+  "descrption": "Test city", 
+  "gas_price": 12.19, 
+  "population_percent_change": -100 
+}
+
+### Cities Update Actions
+PATCH http://localhost:3000/cities/4
+Content-Type: application/json
+
+{
+  "name": "Testo"
+}
+
+### Cities Delete Action
+DELETE http://localhost:3000/cities/4
+
+
+### Sessions Create Action
+
+POST http://localhost:3000/sessions
+Content-Type: application/json
+
+{
+  "email": "kadeillianmt@gmail.com",
+  "password": "password"
+}
+

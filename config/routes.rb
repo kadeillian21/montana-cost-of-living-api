@@ -5,5 +5,4 @@ Rails.application.routes.draw do
   # root "articles#index"
   resources :cities
   post "/sessions" => "sessions#create"
-  
 end
