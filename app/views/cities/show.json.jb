@@ -9,5 +9,7 @@
   median_monthly_mortgage: @city.median_monthly_mortgage,
   gas_price: @city.gas_price,
   monthly_average_food_cost: @city.monthly_average_food_cost,
-  images: @city.images  
+  images: @city.images,
+  longitude: @city.longitude,
+  latitude: @city.latitude  
 }
