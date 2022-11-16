@@ -19,8 +19,10 @@ rails db:create db:migrate db:seed
 rails server
 ```
 
-You can test web requests as documented in the `requests.http` file.
+Then visit 'localhost:3000/cities.json' to view what the API is returning on the backend.
 
-## Roadmap
+You can also test web requests as documented in the `requests.http` file.
+
+## Future Plans
 
 List any ideas you plan on implementing in the future.
