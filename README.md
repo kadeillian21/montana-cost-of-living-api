@@ -25,4 +25,4 @@ You can also test web requests as documented in the `requests.http` file.
 
 ## Future Plans
 
-List any ideas you plan on implementing in the future.
+In the future I would like to talk to multiple APIS to make my Montana cities data dynamic. I would also like to build web scrappers for the backend to collect less-accessible data. Several models that I would like to implement long-term would be a weather model, a recreational opportunites model, a more complete demographics model, information about the city's primary economy, and a user model that differntiates between admins and regular users. It might be nice to add regular users to the current app so that they can save cities that interested them to their account.
