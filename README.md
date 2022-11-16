@@ -1,4 +1,4 @@
-# <Montana-Cost-Of-Living-API>
+# Montana Cost-Of-Living-API
 
 Describe your app here. (What is your 1 minute “elevator pitch” of your capstone project? What problem does it solve? What inspired you to build it?)
 
