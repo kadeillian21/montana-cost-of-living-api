@@ -1,13 +1,13 @@
-@jwt = eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2Njc5Mzk0ODJ9._wRWIT7rqOscmaiInWqejG1a_TuZsKHTrd49kwNgTyk
+@jwt = eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2Njg1NDc3MTJ9.6ABZaJ75Z1PZsz2Evn1zt22QkRsHFQxmyPvDnLNcavs
 
 ### Cities Index Action
-GET http://localhost:3000/cities.json
+GET https://montana-cost-of-living-api.fly.dev/cities.json
 
 ### Cities Show Action
-GET http://localhost:3000/cities/5.json
+GET https://montana-cost-of-living-api.fly.dev/cities.json
 
 ### Cites Create Action
-POST http://localhost:3000/cities.json
+POST https://montana-cost-of-living-api.fly.dev/cities.json
 Authorization: Bearer {{jwt}}
 Content-Type: application/json
 
@@ -20,7 +20,8 @@ Content-Type: application/json
 }
 
 ### Cities Update Actions
-PATCH http://localhost:3000/cities/4.json
+PATCH https://montana-cost-of-living-api.fly.dev/cities/4.json
+Authorization: Bearer {{jwt}}
 Content-Type: application/json
 
 {
@@ -28,12 +29,14 @@ Content-Type: application/json
 }
 
 ### Cities Delete Action
-DELETE http://localhost:3000/cities/4.json
+DELETE https://montana-cost-of-living-api.fly.dev/cities/1.json
+Authorization: Bearer {{jwt}}
+
 
 
 ### Sessions Create Action
 
-POST http://localhost:3000/sessions
+POST https://montana-cost-of-living-api.fly.dev/sessions
 Content-Type: application/json
 
 {
